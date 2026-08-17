@@ -14,7 +14,7 @@ import net.minecraft.screen.slot.SlotActionType;
 import net.minecraft.text.Text;
 import org.lwjgl.glfw.GLFW;
 
-public class AutoSellGuiMod implements ClientModInitializer {
+public class ExampleMod implements ClientModInitializer {
     private static KeyBinding toggleKey;
     private boolean enabled = false;
     private int step = 0;
